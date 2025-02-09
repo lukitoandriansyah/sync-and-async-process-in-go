@@ -17,7 +17,7 @@ func main() {
 
 		success.Message = "Successfully to Get Data"
 		success.Code = 200
-		success.Data = generator.GeneratorAsynchronous(15, 100)
+		success.Data = generator.GeneratorAsynchronous(15, 1000)
 		fmt.Println(util.StructToJson(success))
 	})
 
